@@ -1,0 +1,51 @@
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 20px 0;
+    // height: 100vh; // Center vertically in the viewport
+
+    select {
+        padding: 10px 20px;
+        font-size: 24px;
+        font-weight: 700;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        cursor: pointer;
+        color: red;
+        c
+
+        &:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+    }
+}
+
+.ta-learning-container {
+    padding: 10px;
+
+    .ta-card-container {
+        width: 180px;
+    }
+
+    .ta-row-numbers {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 10px;
+
+        .ta-card-container {
+            height: 200px;
+
+            .card {
+                background-color: rgb(62, 235, 62);
+            }
+            
+            h1 {
+                font-size: 2.6em;
+            }
+        }
+    }
+}

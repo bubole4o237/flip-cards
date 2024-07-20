@@ -1,0 +1,14 @@
+.ta-exercise-container {
+    padding: 10px;
+
+    .ta-flip-card-container {
+        width: 180px;
+    }
+
+    .ta-row-numbers {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
